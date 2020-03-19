@@ -4,8 +4,8 @@ import os
 import glob
 
 # root=r'D:\Postgraudate\learning\experiment\fish\fish_data1'
-# root ='/home/miaozheng/fish/fish_data1'
-root='/content/drive/My Drive/fish_data1'
+# root ='/root/miaozheng/fish/fish_data1'
+root='/content/drive/My Drive/fish_counting/fish_data1'
 fish_path= os.path.join(root,'fish_process')
 
 #读入数据集图片

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3c87ab0a-a419-43a5-bcb9-e02abdd7564d" name="dell" url="http://10.2.205.194">
+        <fileTransfer host="10.2.205.194" port="22" rootFolder="/media/sdb1/miaozheng/model" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -23,9 +23,10 @@ transform=transforms.Compose([
                                      std=[0.229, 0.224, 0.225]),
                    ])
 
-# root = '/root/miaozheng/fish_data1'
-# path=os.path.join(root,'fish_test.txt')
-path='./fish_test.txt'
+root='/content/drive/My Drive/fish_counting/fish_data1'
+path=os.path.join(root,'fish_test.txt')
+# path='./fish_test.txt'
+
 with open(path) as files:
     path_set=files.read().split()
 
@@ -46,7 +47,7 @@ model.load_state_dict(checkpoint['state_dict'])
 mae = 0
 for i in range(len(img_paths)):
     # img = 255.0 * F.to_tensor(Image.open(img_paths[i]).convert('RGB'))
-
+    #
     # img[0,:,:]=img[0,:,:]-92.8207477031
     # img[1,:,:]=img[1,:,:]-95.2757037428
     # img[2,:,:]=img[2,:,:]-104.877445883
